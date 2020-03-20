@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat|Roboto+Slab&display=swap');
+
+body {
+    margin: 0;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    margin: 10% 9.5% 12%;
+}
+
+h1 {
+    font-family: Roboto Slab;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 72px;
+    margin: 0px;
+}
+
+h2 {
+    font-family: Roboto Slab;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 42px;
+    margin: 0px;
+}
+
+h3 {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 38px;
+    margin: 0px 0px 42px;
+}
+
+h4 {
+    font-family: Roboto Slab;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    color: #FFFFFF;
+    margin: 0px;
+}
+
+h5 {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 150%;
+    margin: 0px;
+}
+
+p {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 150%;
+    margin: 0px;
+}
+
+.info-box-left {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: right;
+    padding: 0 9.5% 12%;
+}
+
+.info-box-left .left ,.right{
+    flex-direction: column;
+    width: 45%;
+}
+
+.info-box-left .right img {
+    width: 100%;
+    margin: 0 0 24px;
+    box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.25);
+}
+
+.info-box-right {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: left;
+    padding: 0 9.5% 12%;
+}
+
+.info-box-right .left , .right{
+    width: 45%;
+    flex-direction: column;
+}
+
+.info-box-right .left img {
+    width: 100%;
+    margin: 0 0 24px;
+    box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.25);
+}
+
+#no-padding{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: left;
+    padding: 0 9.5% 3%;
+}
+
+.info-box-middle {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: left;
+    padding: 5% 9.5%;
+}
+
+#first-rect img{
+    position: absolute;
+    width: 100%;
+    margin: 80px 0;
+    z-index: -1;
+}
+
+#second-rect img{
+    position: absolute;
+    width: 100%;
+    margin: -180px 0;
+    z-index: -1;
+}
+
+#third-rect{
+    background: rgba(221, 216, 184, 0.5);
+}
+
+#fourth-rect{
+    background: #011936;
+}
+
+.footer {
+    display: flex;
+    padding: 8% 9.5%;
+    justify-content: left;
+}
+
+.footer > .icons{
+    margin: auto;
+}
+
+.footer .icons a{
+    margin: 0 10px;
+    text-decoration: none;
+}
