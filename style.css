@@ -113,7 +113,6 @@ p {
 .info-box-middle {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
     text-align: left;
     padding: 5% 9.5%;
 }
@@ -121,14 +120,14 @@ p {
 #first-rect img{
     position: absolute;
     width: 100%;
-    margin: 80px 0;
+    margin: 6% 0;
     z-index: -1;
 }
 
 #second-rect img{
     position: absolute;
     width: 100%;
-    margin: -180px 0;
+    margin: -14% 0;
     z-index: -1;
 }
 
@@ -153,4 +152,55 @@ p {
 .footer .icons a{
     margin: 0 10px;
     text-decoration: none;
+}
+
+@media screen and (min-width: 1750px) {
+    .info-box-left {
+        padding: 0 9.5% 14%;
+    }
+    .info-box-right {
+        padding: 0 9.5% 14%;
+    }
+    #first-rect img{
+        transform: scaleY(1);
+        margin: 5% 0 0;
+    }
+    #second-rect img{
+        transform: scaleY(1);
+        margin: -14% 0;
+    }
+}
+
+@media screen and (max-width: 1300px) {
+    .info-box-left {
+        padding: 0 9.5% 24%;
+    }
+    .info-box-right {
+        padding: 0 9.5% 24%;
+    }
+    #first-rect img{
+        transform: scaleY(1.1);
+        margin: 22% 0 0;
+    }
+    #second-rect img{
+        transform: scaleY(1.6);
+        margin: -4% 0;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .info-box-left {
+        padding: 0 9.5% 28%;
+    }
+    .info-box-right {
+        padding: 0 9.5% 24%;
+    }
+    #first-rect img{
+        transform: scaleY(1.1);
+        margin: 26% 0 0;
+    }
+    #second-rect img{
+        transform: scaleY(2);
+        margin: 4% 0;
+    }
 }
